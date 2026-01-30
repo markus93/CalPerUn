@@ -1,0 +1,31 @@
+TAG: 'single_timeframe_model_pedestrians_continue'
+
+PRETRAINED:
+   LOAD_WEIGHTS: True
+   PATH: 'epoch=3-step=7031_single_timeframe_pedestrian.ckpt'
+
+
+GPUS: [0, 1, 2, 3]
+
+BATCHSIZE: 4
+
+TIME_RECEPTIVE_FIELD: 1
+N_FUTURE_FRAMES: 0
+
+TRAIN_ON_PEDESTRIANS: True
+
+PROBABILISTIC:
+  ENABLED: False
+
+MODEL:
+  TEMPORAL_MODEL:
+    NAME: 'identity'
+    INPUT_EGOPOSE: False
+
+INSTANCE_FLOW:
+  ENABLED: False
+
+OPTIMIZER:
+  LR: 1e-3
+
+N_WORKERS: 10

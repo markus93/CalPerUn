@@ -1,0 +1,32 @@
+TAG: 'baseline'
+
+PRETRAINED:
+   LOAD_WEIGHTS: True
+   PATH: 'epoch=7-step=14063_cont_e4_pedestrian_single.ckpt'
+
+GPUS: [0, 1, 2, 3]
+
+BATCHSIZE: 3
+PRECISION: 16
+
+TRAIN_ON_PEDESTRIANS: True
+
+TIME_RECEPTIVE_FIELD: 3
+N_FUTURE_FRAMES: 4
+
+PROBABILISTIC:
+  ENABLED: True
+
+MODEL:
+  BN_MOMENTUM: 0.05
+  TEMPORAL_MODEL:
+    NAME: 'temporal_block'
+    INPUT_EGOPOSE: True
+
+INSTANCE_FLOW:
+  ENABLED: True
+
+OPTIMIZER:
+  LR: 3e-4
+
+N_WORKERS: 20
