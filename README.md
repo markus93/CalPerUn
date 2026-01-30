@@ -1,24 +1,43 @@
 # CalPerUn
-Official repository of the article "Calibrating Perception Uncertainty for Autonomous Driving"
 
+Official repository for the paper  
+**Calibrating Perception Uncertainty for Autonomous Driving**
 
-1. Training
+This repository contains code and experiments for training perception models and evaluating calibrated uncertainty in autonomous driving scenarios.
 
+---
 
-Folder "FIERY training (pedestrians)" contains information for training the FIERY model using NuScenes.
+## Repository Structure
 
-Model checkpoint used for the experiments is available in the "checkpoints" folder.
+### 1. Training
+**Folder:** `1. FIERY train and validate (pedestrians)`
 
-2. Folder "Figures (notebooks)" contains uncertainty extraction and figure generation
+Contains code and instructions for training the FIERY model on pedestrian data using the NuScenes dataset.
 
+- Based on the official FIERY implementation
+- Modified to support pedestrian-focused training
+- Pretrained model checkpoints used in the paper are provided in the `checkpoints/` folder
 
-3. Folder "Downstream task" contains information needed for downstream task and generating these figures.
+---
 
+### 2. Experiments
+**Folder:** `2. Experiments and Figures (notebooks)`
 
+Contains all experiments, uncertainty extraction methods, and figure generation notebooks, including:
 
-## Citation:
+- Calibration experiments
+- Autocorrelation analysis
+- Downstream planning task evaluation
 
-- fill with the citation when the work is released
+---
 
+## Citation
 
-## Contacts: markus.kangsepp@ut.ee
+Citation will be added once the paper is published.
+
+---
+
+## Contact
+
+For questions or issues, please contact:  
+**markus.kangsepp@ut.ee**
