@@ -33,7 +33,23 @@ Contains all experiments, uncertainty extraction methods, and figure generation 
 
 ## Citation
 
-Citation will be added once the paper is published.
+If you use this work, please cite:
+
+```bibtex
+@article{kangsepp2026calibrating,
+  author = {K{\"a}ngsepp, Markus and Kull, Meelis},
+  title = {Calibrating Perception Uncertainty for Autonomous Driving},
+  journal = {International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems},
+  volume = {34},
+  number = {05},
+  pages = {621--645},
+  year = {2026},
+  doi = {10.1142/S0218488526500212},
+}
+```
+
+
+
 
 ---
 
