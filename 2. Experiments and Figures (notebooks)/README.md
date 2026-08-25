@@ -12,7 +12,7 @@ This folder contains all experiments, uncertainty extraction methods, and figure
 ### Main Methodology and Figures
 
 1. FIERY - Figure - segmentation to inputs (and Fig 2)  
-   Generates the input visualization.
+   Generates the input visualisation.
 
 2. FIERY - Figures (Fig. 4–8)  
    Generates all calibration figures used in the paper and poster.  
@@ -36,16 +36,16 @@ Data for these notebooks is not included.
 
 3. FIERY - planning - get object calibrated results  
    - Applies calibrated uncertainty to a planning task.
-   FIERY - planning - trajectories (Figure 9 and Table 1)
+4. FIERY - planning - trajectories (Figure 9 and Table 1)
    - Generates the trajectories, calculates uncalibrated and calibrated probabilities, and finds the results for Table 1.
-   FIERY - planning - get number of collisions.ipynb
+5. FIERY - planning - get number of collisions.ipynb
    - Find how many potential collisions would be there if the best path is taken.
 
 ---
 
 ### Additional Experiments
 
-4. FIERY - autocorrelation check (Fig 1).ipynb  
+6. FIERY - autocorrelation check (Fig 1).ipynb  
    Autocorrelation experiment.
 
 ---
@@ -56,7 +56,7 @@ Data for these notebooks is not included.
   Helper functions used across notebooks
 
 - `binnings.py`  
-  Calibration utilities including Expected Calibration Error (ECE) and reliability diagrams
+  Calibration utilities, including Expected Calibration Error (ECE) and reliability diagrams
 
 ---
 
