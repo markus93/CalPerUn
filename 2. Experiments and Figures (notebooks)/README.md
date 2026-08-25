@@ -34,8 +34,12 @@ Data for these notebooks is not included.
 
 ### Downstream Task
 
-3. FIERY - planning - get object calibrated results (Fig. 9)  
-   Applies calibrated uncertainty to a planning task.
+3. FIERY - planning - get object calibrated results  
+   - Applies calibrated uncertainty to a planning task.
+   FIERY - planning - trajectories (Figure 9 and Table 1)
+   - Generates the trajectories, calculates uncalibrated and calibrated probabilities, and finds the results for Table 1.
+   FIERY - planning - get number of collisions.ipynb
+   - Find how many potential collisions would be there if the best path is taken.
 
 ---
 
